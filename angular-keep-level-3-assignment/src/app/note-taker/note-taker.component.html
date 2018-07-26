@@ -1,0 +1,19 @@
+<label class="error-message">{{ errMessage }}</label>
+<div class="keep-c-expansion-panel-wrapper">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>Take a note</mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="keep-c-note-taker-wrapper">
+      <mat-form-field>
+        <input [(ngModel)]="note.title" name="title" matInput placeholder="Title" type="text">
+      </mat-form-field>
+      <mat-form-field>
+        <textarea [(ngModel)]="note.text" name="text" matInput placeholder="Text"></textarea>
+      </mat-form-field>
+      <div class="keep-c-done-wrapper">
+        <button mat-button (click)="takeNotes()">Done</button>
+      </div>
+    </div>
+  </mat-expansion-panel>
+</div>

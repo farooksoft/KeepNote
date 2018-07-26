@@ -1,0 +1,9 @@
+{
+	"workflow": "NodeJSMongoAngularEval",
+	"scores": {
+    	"commanderUIUnitTests": 50,
+    	"commandere2etests": 30,
+    	"cadete2etests": 10,
+    	"tslint": 10
+	}
+}
